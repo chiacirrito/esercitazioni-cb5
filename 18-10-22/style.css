@@ -1,0 +1,111 @@
+html {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+body {
+    heigt: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    }
+
+.image {
+    position: absolute;
+    top: 110px;
+    right: 150px;
+}
+
+.description {
+    position: absolute;
+    top: 150px;
+    right: 400px;
+    width: 70%;
+    height: 100px;
+    background-color: rgba(100, 148, 237, 0.26);
+    border-collapse: collapse;
+    border: 3px solid rgb(13, 1, 68);
+}
+
+.description th {
+    position: absolute;
+    left: 500px;
+}
+
+.descriptiontwo {
+    position: absolute;
+    top: 320px;
+    width: 100%;
+    height: 240px;
+    background-color: rgba(100, 148, 237, 0.26);
+    border: 3px solid rgb(13, 1, 68);   
+}
+
+
+.skill{
+    position: absolute;
+    top: 600px;
+    right: 0;
+    width: 100%;
+    height: 210px;
+    background-color: rgba(100, 148, 237, 0.26);
+    border: 3px solid rgb(13, 1, 68); 
+}
+
+.skill strong {
+    position: absolute;
+    left: 500px;
+}
+
+.skills{
+    position: absolute;
+    top: 850px;
+    right: 0;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(100, 148, 237, 0.26);
+    border: 3px solid rgb(13, 1, 68)
+}
+
+.skills strong {
+    position: absolute;
+    left: 500px;
+}
+.contacts {
+    position: absolute;
+    top: 1000px;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(100, 148, 237, 0.26);
+    border: 3px solid rgb(13, 1, 68)
+}
+
+.contacts th {
+        position: absolute;
+        left: 500px;
+}
+
+.footer {
+    position: relative;
+    top: 1070px;
+    right: 0;
+}
+
+.footer p {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    background-color: rgba(100, 148, 237, 0.268);
+}

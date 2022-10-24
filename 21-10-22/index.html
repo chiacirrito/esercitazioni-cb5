@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="homepage">
+    <nav>
+        <div class="logo">
+           <img src="img/tre.png" id="logo" height="50px" width="50px" alt="img">
+        </div>
+        <div class="menu">
+     <ul>
+        <li>
+            <a href="https://www.linkedin.com/in/chiara-cirrito-90a2021b7/"><img src="img/linkedin.png" id="linkedin" height="10px" width="10px" alt="linkedin"></a>
+        </li>
+        <li>
+            <a href="https://www.facebook.com/chiara.cirrito.7/"><img src="img/facebook.png" id="facebook" height="10px" width="10px" alt="facebook"></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/chiarac16/"><img src="img/instagram.png" id="instagram" height="10px" width="10px" alt="instagram"></a>
+        </li>
+        <li>
+         <button><a href="#contact">Contattami</a></button> 
+        </li>
+     </ul>
+         </div>
+    </nav>
+    <section class="hero">
+        <div class="hero__text">
+            <h1>Hi, I'm Chiara Cirrito</h1>
+            <h4>Front-end developer</h4>
+        </div>
+        <div class="hero__img">
+            <img src="img/icona.png" id="heroimg" height="200px" width="200px" alt="img">
+        </div>
+    </section>
+    <section class="section__one">
+        <div class="section__one__text">
+            <h3>DATI PERSONALI</h3>
+        <p><img src="img/data.png" id="data" height="30px" width="30px" alt="data"> 16-02-1999 <br> 
+            <img src="img/luogo.png" id="luogo" height="30px" width="30px" alt="luogo"> Via Aurelio Saffi 30, Collesano (PA) <br>
+            <img src="img/telefono.png" id="cellulare" height="30px" width="30px" alt="cellulare"> 3895578295 <br>
+            <img src="img/mail.png" id="mail" height="30px" width="30px" alt="mail">chiaracirrito@yahoo.com 
+        </p>
+        </div>
+    </section>
+    <section class="section__two">
+        <div class="section__two__img">
+            <img src="img/uno.png" id="unoimg" height="150px" width="150px" alt="img">
+        <p><strong>FORMAZIONE</strong>
+            <br>
+            <br>
+            <strong>2017:</strong>Maturità d'arte applicata <br>
+            <strong>2021:</strong> Attestato "Wordpress completo"<br>
+            <strong>2022:</strong> Attestato "WooCommerce"<br>
+            <strong>2022:</strong>Attestato "Scrivere online"<br>
+            <strong>2022:</strong> Laurea in Dams (progettuale-produttivo)
+        </p>
+        </div>
+        <div class="section__two__text">
+            <h3>ESPERIENZE PROFESSIONALI</h3>
+            <p><strong>03/2019-12/2021:</strong> Social media manager, creazione e gestione pagina instagram <a href="https://www.instagram.com/ladolceisola_collegno/"> @ladolceisola_collegno</a><br><br>
+                <strong>07/2021-12/2021:</strong> Tirocinio curriculare, gestione di <a href="https://www.percorsi.youelements.com/">www.percorsi.youelements.com</a> e creazione di <a href="https://nicolettanapoli.it/">www.nicolettanapoli.it</a>
+             </p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="section__three">
+        <div class="section__three__img">
+            <img src="img/quattro.png" id="quattroimg" height="150px" width="150px" alt="img">
+        </div>
+        <div class="section__three__text">
+            <h3>COMPETENZE INFORMATICHE</h3>
+        <ul>
+            <li>HTML 5</li>
+            <li>CSS</li>
+            <li>Php MyAdmin</li>
+            <li>CMS = Wordpress e Omeka</li>
+            <li>MySql Workbench</li>
+            <li>Pacchetto Office</li>
+            <li>Canva</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+        </ul>
+        <h3>ALTRE COMPETENZE</h3>
+        <ul>
+            <li>Conoscenze linguistiche: Inglese, livello B</li>
+            <li>Capacità e competenze sociali: Predisposizione al lavoro in gruppo</li>
+            <li>Capacità organizzative: Ottima capacità di gestione del tempo e rispetto delle scadenze accordate</li>
+        </ul>
+        </div>
+    </section>
+    <section class="section__four">
+        <div class="section__form">
+            <form id="contact" method="get">
+                <fieldset id="one"><legend>COMPILA I SEGUENTI CAMPI:</legend>
+                   <section class="formone">
+                   <label for="nome">Nome:</label>
+                   <input type="textarea" name="nome" id="nome" placeholder="Qui il tuo nome" required/>
+                   <label for="cognome">Cognome:</label>
+                   <input type="text" name="cognome" id="cognome" placeholder="Qui il tuo cognome" required/>
+                   </section>
+                   <section class="formtwo">
+                   <label for="dove">Dove hai trovato il mio portfolio?</label>
+                   <select id="dove" name="dove">
+                      <option value="linkedin">Linkedin</option>
+                      <option value="google">Google</option>
+                      <option value="facebook">Facebook</option>
+                      <option value="instagram">Instagram</option>
+                   </select>
+                   </section>
+                   <section class="formthree">
+                   <label for="motivo">Area di interesse:</label>
+                   <input type="checkbox" name="motivo" id="motivo"/> Social media
+                   <input type="checkbox" name="motivo" id="motivo"/> Web design
+                   <input type="checkbox" name="motivo" id="motivo"/> Web development
+                   <br>
+                   <br>
+                   <label for="messaggio">Per quale motivo mi contatti?</label>
+                   <input type="textarea" name="messaggio" id="messaggio" cols="80" row="40" placeholder="Qui va il tuo messaggio"/>
+                   <br>
+                    </section>
+                </fieldset>
+                    <section class="formfour">
+                    <input type="submit" id="botton" value="Invia">
+                    </section>
+               </form>
+        </div>
+    </section>
+    <footer>
+        <p>Autorizzo al trattamento dei miei dati personali presenti ai sensi del D.Lgs. 30 giugno 2003, n.196 "Codice in materia di  protezione dei dati personali" e dell'art. 13 del GDPR.</p> 
+        <a href="#homepage">
+            <button class="scroll-up">&#8593;</button>
+          </a>
+    </footer>
+  </body>
+  </html>

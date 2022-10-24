@@ -1,0 +1,1 @@
+alert ("Clicca ok per visualizzare il contenuto della pagina")

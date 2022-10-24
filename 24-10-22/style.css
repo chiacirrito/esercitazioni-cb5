@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;800&display=swap");
+
+
+body {
+    margin: 50px;
+    color: rgb(28, 28, 28);
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px blueviolet;
+}
+
+.link {
+    border: 3px solid aliceblue;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px blueviolet;
+}

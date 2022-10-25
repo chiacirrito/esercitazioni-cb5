@@ -20,7 +20,7 @@ nav {
     justify-content:space-between;
     align-items: flex-start;
     width: 100%;
-    background-color: rgba(28, 28, 28, 0.184);
+    background-color: rgba(130, 78, 78, 0.352);
     border-bottom: 1px solid rgb(28, 28, 28);
 }
 
@@ -60,7 +60,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: rgb(133, 74, 74);
+    color: rgba(142, 90, 90, 0.649);
 }
 
 .hero {
@@ -68,7 +68,7 @@ a:hover {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    background-color: rgba(118, 150, 154, 0.527) ;
+    background-color: rgba(118, 150, 154, 0.242) ;
 }
 
 .hero__text {
@@ -76,31 +76,34 @@ a:hover {
     flex-direction: column;
     font-style: italic;
     color: rgb(94, 48, 48);
+    background-color: rgba(240, 248, 255, 0.523);
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
 }
 
 .hero__img {
    display: flex;
    justify-content: flex-end;
+   align-items: center;
    object-fit: cover;
    margin-top: -40px;
-   background-color: aliceblue;
-   border-radius: 50%;
 }
 
 .section__one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 30px;
     padding: 0;
-   border-bottom: 2px solid rgba(118, 150, 154, 0.527) ;
+   border: 2px solid rgba(118, 150, 154, 0.527) ;
 }
 
-.section__one__text {
+.section__one__img {
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
+    flex-direction: column;
 }
-
-
 
 .section__two__img {
     display: flex;
@@ -108,16 +111,19 @@ a:hover {
     margin: 30px 30px;
     object-fit: cover;
     justify-content: center;
-    background-color: rgba(118, 150, 154, 0.056) ;
+    align-items: center;
+    background-color: rgba(118, 150, 154, 0.129) ;
 }
 
 .section__two__text {
     margin: 40px 30px;
     padding: 1px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 5px;
-   border-bottom: 2px solid rgba(118, 150, 154, 0.527) ;
+    border-bottom: 2px solid rgba(118, 150, 154, 0.527) ;
 }
 
 
@@ -137,6 +143,10 @@ a:hover {
     margin: -300px 30px;
     padding: 30px;
    border-bottom: 2px solid rgba(118, 150, 154, 0.527) ;
+}
+
+.section__three__text ul {
+    list-style-type:circle;
 }
 
 .section__three__text h3 {
@@ -189,7 +199,7 @@ label {
 }
 
 footer {
-    background-color: #939393;
+    background-color: rgba(118, 150, 154, 0.366);
     height: 130px;
     margin-top: -200px;
     display: flex;
@@ -217,8 +227,7 @@ footer p {
 
 
 button:hover {
-    background-color: rgb(94, 48, 48);
-    color: white;
+    background-color: rgba(109, 62, 62, 0.537);
     box-shadow: 1px 1px 1px black;
   }
 
@@ -236,8 +245,8 @@ button:hover {
     }
 
     .menu img {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
         transition: all 0.60s;
     }
 

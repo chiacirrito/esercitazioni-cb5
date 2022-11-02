@@ -142,3 +142,5 @@ console.log("Expansive", expansiveProducts);
 //Le callbacks sono presenti dopo l'arrow function e all'interno della funzione permettono di far ritornare i parametri, quindi lo troviamo:
 // 1)  all'interno della riga 126 perché permette di stampare i parametri richiesti. 
 // 2) all'interno della riga 130 perché permette di stampare il ciclo richiesto restituendo però il valore undefined 
+// 3) all'interno delle righe 134-135 dove permette di ritornare i valori che soddisfano la condizione data
+// 4) all'interno delle righe 137-138 dove ritornano i valori opposti alla funzione dichiarata precedentemente

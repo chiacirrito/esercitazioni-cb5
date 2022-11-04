@@ -28,7 +28,7 @@ const createCard = (title, imgUrl, price, description, category, parent) => {
 
 const heroEl = document.querySelector("hero");
 const hero = document.createElement("p");
-heroEl.appendChild(hero);
+heroEl.appendChild(heroEl);
 
 
 products

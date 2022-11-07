@@ -31,7 +31,6 @@ nav img {
 
 a {
     color: rgb(56, 24, 24);
-    font-style: italic;
     font-weight: bold;
     text-decoration: none;
 }
@@ -128,6 +127,14 @@ height: 720px;
     border-bottom: 1px solid rgb(56, 24, 24);
 }
 
+.contact h4, .help h4 {
+    position: relative;
+    top: -290px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.204);
+}
+
 .contact img, .help img {
     width: 100%;
     object-fit: cover;
@@ -167,7 +174,11 @@ hr {
         height: 250px;
         object-fit: cover;
     }
-
+    
+    .contact h4, .help h4 {
+        left: 300px;
+    }
+    
     footer h5 {
         font-size: 20px;
     }

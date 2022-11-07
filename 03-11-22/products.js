@@ -6,6 +6,7 @@ const bagsthree = [
         price: "€2.210,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-m%C3%A9tis-east-west-tela-monogram-borse-da-donna--M46279_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a spalla",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
         },
     {
         id: 2,
@@ -14,6 +15,7 @@ const bagsthree = [
         price: "€1.700,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-speedy-bandouli%C3%A8re-25-autres-toiles-monogram-borse-da-donna--M20973_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a spalla",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const bagsthree = [
         price: "€2.060,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-neverfull-mm-pelle-monogram-empreinte-borse-da-donna--M45685_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a spalla",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const bagsthree = [
         price: "€1.220,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-pochette-f%C3%A9licie-tela-monogram-portafogli-e-piccola-pelletteria--M81545_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a spalla",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ const bagsthree = [
         price: "€2.320,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-borsa-diane-tela-monogram-borse-da-donna--M46317_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a spalla",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
     },
     {
         id: 6, 
@@ -46,6 +51,7 @@ const bagsthree = [
         price: "€620,00",
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-mini-pochette-accessoires-tela-monogram-portafogli-e-piccola-pelletteria--M81633_PM2_Front%20view.png?wid=2048&hei=2048",
         category: "Borsa a mano",
+        a: "https://it.louisvuitton.com/ita-it/prodotti/neverfull-mm-monogram-007653/M41177",
     },
     {
         id: 7,
@@ -104,7 +110,7 @@ const bags = [
         image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-multi-pochette-accessoires-tela-monogram-borse-da-donna--M44813_PM2_Front%20view.png?wid=2048&hei=2048",
         material: "Tela monogram",
         category: "Borsa a spalla",
-        description: "La multi pochette Accessoires è un omaggio a tre icone della Maison: l'omonimo accessorio, la sua versione mini e il portamonete rotondo. Il modello, realizzato nell'emblematica tela di LV, è decorato con motivo Mini Monogram e presenta svariate tasche e scomparti. La catenella dorata e la tracolla in jacquard impreziosita dalla firma Louis Vuitton consentono di portare l'accessorio in diversi modi.",
+        description: "La multi pochette Accessoires è un omaggio a tre icone della Maison: l'omonimo accessorio, la sua versione mini e il portamonete rotondo. Il modello, realizzato nell'emblematica tela di LV, presenta svariate tasche e scomparti. La catenella dorata e la tracolla in jacquard consentono di portare l'accessorio in diversi modi.",
     },
 ];
 
@@ -128,7 +134,7 @@ const bagstwo = [
     image: "https://it.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-borsa-petite-malle-tela-monogram-borse-da-donna--M45943_PM2_Front%20view.png?wid=2048&hei=2048",
     material: "Tela monogram",
     category: "Borsa a spalla",
-    description: "La borsa Petite Malle riproduce in versione mini i classici bauli da viaggio di Louis Vuitton. L'originale modello, vero capolavoro di pelletteria, è ricco di dettagli distintivi, dall'iconica tela Monogram alla chiusura dorata, alla fodera in pelle di agnello con emblematico motivo della Maison. L'accessorio, ideale dal giorno alla sera, può essere portato come pochette oppure utilizzando la tracolla regolabile.",
+    description: "La borsa Petite Malle riproduce in versione mini i classici bauli da viaggio di Louis Vuitton. L'originale modello, è ricco di dettagli distintivi, dall'iconica tela Monogram alla chiusura dorata, alla fodera in pelle di agnello con emblematico motivo della Maison. Può essere portato come pochette oppure utilizzando la tracolla regolabile.",
 },
 {
     id: 3,

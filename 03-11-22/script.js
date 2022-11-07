@@ -12,7 +12,7 @@ const createSection = (data, parent) => {
     const sectionEl = document.createElement("div");
     const sectionImgEl = document.createElement("img");
     const sectionTitleEl = document.createElement("h5");
-    const sectionPriceEl = document.createElement("h5");
+    const sectionPriceEl = document.createElement("h5"); 
 
     sectionEl.className = "section";
     sectionImgEl.setAttribute("src", data.image);
@@ -48,13 +48,17 @@ bagsthree.map((bag) => createSection(bag, naEl));
 bags.map((bag) => createCard(bag, bsEl));
 bagstwo.map((bag) => createCard(bag, mpEl));
 
-const cardEls = document.querySelector(".card");
-cardEls.forEach((card) => {
-    card.addEventListener("click", () => card.classList.toggle("special-card"));
-});
 
+//GESTIONE EVENTI
 
+const buttonEl = document.querySelector("button");
+buttonEl.addEventListener("click", () => window.open("https://it.louisvuitton.com/ita-it/novita/per-le-donne/ultimi-arrivi/_/N-t18gb9e5","_blank"));
 
+const contactEl = document.querySelector(".contact");
+contactEl.addEventListener("click", () => window.open("https://it.louisvuitton.com/ita-it/contattaci", "_blank"));
+
+const helpEl = document.querySelector(".help");
+helpEl.addEventListener("click", () => window.open("https://secure.louisvuitton.com/ita-it/mylv/prenotazione-appuntamenti?_gl=1*1wg2to5*_ga*MTE2NTA1Njk1OC4xNjY3Mzk2MDkx*_ga_S6ED35NYJQ*MTY2NzQ5MDc0OS4yLjAuMTY2NzQ5MDc1MC41OS4wLjA.", "_blank"));
 
 
 

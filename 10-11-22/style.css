@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 65, 65, 0.745);
+    margin: 80px;
+}
+
+.section {
+    background-color: aqua;
+}
+
+
+

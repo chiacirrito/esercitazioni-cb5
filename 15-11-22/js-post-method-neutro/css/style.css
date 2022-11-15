@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(152, 64, 234, 0.075);
+    margin: 0;
+}
+
+.hero {
+    background-color: rgba(152, 64, 234, 0.249);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    margin: 30px;
+}
+
+.pokemonList {
+   list-style-type: none;
+   margin: 50px;
+}
+
+h2 {
+    font-style: italic;
+    color: rgba(46, 17, 72, 0.674);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.pkm-card{
+    border-radius: 8%;
+     border: 1px solid rgb(56, 24, 24);
+     background-color: rgba(152, 64, 234, 0.126);
+     padding: 20px;
+     height: 100px;
+     width: 100px;
+ }
+
+ .containerCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 50px;
+ }
+ 

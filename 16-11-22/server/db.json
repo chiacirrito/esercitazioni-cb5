@@ -1,0 +1,84 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasarur",
+      "type": "grass"
+    },
+    {
+      "id": "ef1367b8-d850-4f91-b394-ff76ab861b90",
+      "name": "Venusaur",
+      "type": "grass"
+    },
+    {
+      "id": "70ff0353-d1bf-4acd-ab0e-4d3516b05107",
+      "name": "Charmander",
+      "type": "fire"
+    },
+    {
+      "id": "5d724f29-eb58-46aa-bbad-44c356bcf165",
+      "name": "Charmeleon",
+      "type": "fire"
+    },
+    {
+      "id": "05ac3c92-e9da-4d6e-9b69-c18fb058adac",
+      "name": "Charizard",
+      "type": "fire"
+    },
+    {
+      "id": "47431540-ba69-47f5-9fb1-a1704ca81f80",
+      "name": "Squirtle",
+      "type": "water"
+    },
+    {
+      "id": "4a495528-90d7-44ea-9600-be2a68898cab",
+      "name": "Wartortle",
+      "type": "water"
+    },
+    {
+      "id": "627bc99c-dd6d-4fcf-8250-9426e63ea65a",
+      "name": "Blastoise",
+      "type": "water"
+    },
+    {
+      "id": "4daef712-146f-4bcb-8379-cb9ca81b03a3",
+      "name": "Caterpie",
+      "type": "bug"
+    },
+    {
+      "name": "Butterfree",
+      "type": "bug",
+      "id": 2
+    },
+    {
+      "name": "Weedle",
+      "type": "bug",
+      "id": 3
+    },
+    {
+      "name": "Kakuna",
+      "type": "bug",
+      "id": 4
+    },
+    {
+      "name": "Beedrill",
+      "type": "bug",
+      "id": 5
+    },
+    {
+      "name": "Pidgey",
+      "type": "normal",
+      "id": 6
+    },
+    {
+      "name": "Pidgeotto",
+      "type": "normal",
+      "id": 7
+    },
+    {
+      "name": "Pidgeot",
+      "type": "normal",
+      "id": 8
+    }
+  ]
+}

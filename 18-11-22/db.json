@@ -1,0 +1,74 @@
+{
+  "pokemon": [
+    {
+      "id": "1",
+      "name": "Bulbasaur",
+      "type": "grass"
+    },
+    {
+      "id": "2",
+      "name": "Charmander",
+      "type": "fire"
+    },
+    {
+      "id": "4",
+      "name": "Charizard",
+      "type": "fire"
+    },
+    {
+      "id": "5",
+      "name": "Squirtle",
+      "type": "water"
+    },
+    {
+      "id": "6",
+      "name": "Wartortle",
+      "type": "water"
+    },
+    {
+      "id": "7",
+      "name": "Blastoise",
+      "type": "water"
+    },
+    {
+      "id": "8",
+      "name": "Caterpie",
+      "type": "bug"
+    },
+    {
+      "name": "Butterfree",
+      "type": "bug",
+      "id": "9"
+    },
+    {
+      "name": "Weedle",
+      "type": "bug",
+      "id": "10"
+    },
+    {
+      "name": "Kakuna",
+      "type": "bug",
+      "id": "11"
+    },
+    {
+      "name": "Beedrill",
+      "type": "bug",
+      "id": "12"
+    },
+    {
+      "name": "Pidgey",
+      "type": "normal",
+      "id": "13"
+    },
+    {
+      "name": "Pidgeotto",
+      "type": "normal",
+      "id": "14"
+    },
+    {
+      "name": "Pidgeot",
+      "type": "normal",
+      "id": "15"
+    }
+  ]
+}

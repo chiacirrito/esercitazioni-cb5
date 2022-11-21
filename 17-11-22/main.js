@@ -3,7 +3,6 @@ import { qs, ce, GET } from "./utils.js";
 const BASE_URL = "https://jsonplaceholder.typicode.com/photos";
 const cardList = qs(".cardList");
 const inputEl = qs(".search-input");
-let inputValue = "";
 let productsList = [];
 
 const createCardEl = (data, parent) => {
@@ -26,17 +25,21 @@ const createCardEl = (data, parent) => {
   parent.append(cardEl);
 };
 
+//SEARCH BAR
+
 GET(BASE_URL).then((data) => {
     data.map((product) => createCardEl(product, cardList));
   productsList = data.filter((product) => product.id <= 10);
 });
 
-inputEl.addEventListener("keyup", (e) => {
+inputEl.addEventListener("input", (e) => {
     const searchString = e.target.value;
-    const filteredProd = productsList.filter((prod) => {
-      return prod.title.includes(searchString);
-    });
-    console.log(filteredProd);
+
+    cardList.replaceChildren();
+
+    productsList
+    .filter(product => product?.title.includes(searchString))
+    .map(product => createCardEl(product, cardList))
   });
 
 

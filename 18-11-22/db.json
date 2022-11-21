@@ -11,64 +11,134 @@
       "type": "fire"
     },
     {
-      "id": "4",
+      "id": "3",
       "name": "Charizard",
       "type": "fire"
     },
     {
-      "id": "5",
+      "id": "4",
       "name": "Squirtle",
       "type": "water"
     },
     {
-      "id": "6",
+      "id": "5",
       "name": "Wartortle",
       "type": "water"
     },
     {
-      "id": "7",
+      "id": "6",
       "name": "Blastoise",
       "type": "water"
     },
     {
-      "id": "8",
+      "id": "7",
       "name": "Caterpie",
       "type": "bug"
     },
     {
       "name": "Butterfree",
       "type": "bug",
-      "id": "9"
+      "id": "8"
     },
     {
       "name": "Weedle",
       "type": "bug",
-      "id": "10"
+      "id": "9"
     },
     {
       "name": "Kakuna",
       "type": "bug",
-      "id": "11"
+      "id": "10"
     },
     {
       "name": "Beedrill",
       "type": "bug",
-      "id": "12"
+      "id": "11"
     },
     {
       "name": "Pidgey",
       "type": "normal",
-      "id": "13"
+      "id": "12"
     },
     {
       "name": "Pidgeotto",
       "type": "normal",
-      "id": "14"
+      "id": "13"
     },
     {
       "name": "Pidgeot",
       "type": "normal",
+      "id": "14"
+    },
+    {
+      "name": "Rattata",
+      "type": "normal",
       "id": "15"
+    },
+    {
+      "name": "Raticate",
+      "type": "normal",
+      "id": "16"
+    },
+    {
+      "name": "Spearow",
+      "type": "normal",
+      "id": "17"
+    },
+    {
+      "name": "Fearow",
+      "type": "normal",
+      "id": "18"
+    },
+    {
+      "name": "Ekans",
+      "type": "poison",
+      "id": "19"
+    },
+    {
+      "name": "Arbok",
+      "type": "poison",
+      "id": "20"
+    },
+    {
+      "name": "Pikachu",
+      "type": "electric",
+      "id": "21"
+    },
+    {
+      "name": "Raichu",
+      "type": "electric",
+      "id": "22"
+    },
+    {
+      "name": "Sandshrew",
+      "type": "electric",
+      "id": "23"
+    },
+    {
+      "name": "Sandslash",
+      "type": "ground",
+      "id": "24"
+    },
+    {
+      "name": "Nidoran-f",
+      "type": "poison",
+      "id": "25"
+    },
+    {
+      "name": "Nidorina",
+      "type": "poison",
+      "id": "26"
+    },
+    {
+      "name": "Nidoqueen",
+      "type": "poison",
+      "id": "27"
+    },
+    {
+      "name": "Clefairy",
+      "type": "poison",
+      "id": "28"
     }
   ]
 }

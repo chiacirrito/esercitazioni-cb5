@@ -2,13 +2,13 @@ const c = (el) => document.createElement(el);
 
 const q = (el) => document.querySelector(el);
 
-const GET = async (BASE_URL) => {
-	const res = await fetch(BASE_URL);
+const GET = async (url) => {
+	const res = await fetch(url);
 	return await res.json();
 }
 
-const POST = async (BASE_URL, body) => {
-	return await fetch(BASE_URL, {
+const POST = async (url, body) => {
+	return await fetch(url, {
 		method: 'POST',
 		headers: {
 			'Content-Type': 'application/json'
@@ -30,14 +30,14 @@ const PATCH = async (URL, id, body) => {
 			"Content-Type": "application/json"
 		},
 		body: JSON.stringify(body)
-	})
-}
+	});
+};
 
 // API
 /**
  * Create an unique hash code
  * @returns string
- */
+
 function uuidv4() {
 	return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) =>
 		(
@@ -46,5 +46,5 @@ function uuidv4() {
 		).toString(16)
 	);
 }
-
-export { c, q, GET, POST, DELETE, PATCH, uuidv4 }
+ */
+export { c, q, GET, POST, DELETE, PATCH }

@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href= "./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <title>18-11-22</title>
   </head>
   <body>
     <div class="hero">
     <img src="https://1000marche.net/wp-content/uploads/2020/03/Pokemon-logo-768x432.png" alt="logo">
     </div>  
-    <div class="container"></div>
+    
+    <form name="search" class="searchform" autocomplete="off">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input class="search-input" type="text" placeholder="Search ..."/>
+    </form>
+  
     <form name="pokemon" class="form" autocomplete="off">
       <input type="text" name="idPkm" placeholder="Id" id="text" required/> 
       <input type="text" name="pkmName" placeholder="Name" id="name" required/>
@@ -19,20 +26,21 @@
       <input type="submit"class="submit" value="Submit"/>
     </form>
     <form name="pokemonPatch" class= "form" autocomplete="off">
-        <input type="text" placeholder="Insert Id.." name="pkmid" />
-        <input type="text" placeholder="Insert Name.." name="name" />
-        <input type="text" placeholder="Insert Type.." name="type" />
+        <input type="text" placeholder="Insert Id.." id="pkmid" />
+        <input type="text" placeholder="Insert Name.." id="name" />
+        <input type="text" placeholder="Insert Type.." id="type" />
         <input type="submit" class="edit" value="Edit" />
       </form>
     </div>
 
-    <div class="containerCard">
+    <div class="containerCard"></div>
     <script type="module" src="./script.js"></script>
     <script type="module" src="./utils.js"></script>
     <script type="module" src="./api.js"></script>
-    </div>
+  
   </div>
-  <div class="footer">
-  </div>
+  <footer class="footer">
+    <div></div>
+  </footer>
   </body>
 </html>

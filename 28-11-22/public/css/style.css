@@ -1,0 +1,69 @@
+body {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.calcolatrice {
+    border: 2px solid rgb(102, 102, 102);
+    box-shadow: 1px 1px 5px black;
+    background-color: rgba(102, 102, 102, 0.459);
+    padding: 20px;
+}
+.calcolatrice:hover {
+    background-color: rgba(102, 102, 102, 0.712);
+}
+
+.parametri {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.parametro1, .parametro2 {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px black;
+    padding: 5px;
+}
+
+.parametro1:hover, .parametro2:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.108);
+    color: white;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    border-radius: 100%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px black;
+    font-size: 18px;
+    padding: 2px;
+    width: 20px;
+}
+
+.btn_equal {
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 5px black;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 5px black;
+    cursor: pointer;
+}
+
+.risultato {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

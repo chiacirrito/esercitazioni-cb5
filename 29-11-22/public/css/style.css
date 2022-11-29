@@ -1,0 +1,68 @@
+body {
+    margin: 50px;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 2%, rgba(148,187,233,1) 52%);
+    display: flex;
+    align-items: center;
+}
+
+.header h2 {
+    letter-spacing: 3px;
+    color: rgb(252, 246, 237);
+    text-shadow: 1px 1px 1px black;
+}
+
+.attori {
+    margin-top: 50px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+}
+
+.card {
+    border: 1px solid blueviolet;
+    background-color: rgba(200, 151, 246, 0.548);
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 1px 2px 2px black;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+.img {
+    border: rgb(112, 89, 99);
+    background: rgba(86, 54, 100, 0.363);
+    box-shadow: 1px 1px 1px black;
+    width: 90px;
+    height: 80px;
+}
+
+.name, .cognome, .data {
+    font-size: 18px;
+    color: rgb(12, 9, 9);
+    border-bottom: 1px solid rgb(252, 246, 237);
+}
+
+.name:hover, .cognome:hover, .data:hover {
+    border-bottom: 1px solid black;
+}
+
+.data {
+    letter-spacing: 2px;
+    font-size: 14px;
+}

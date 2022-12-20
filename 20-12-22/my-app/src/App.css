@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  border: 1px solid black;
+  margin: 50px;
+  padding: 50px;
+}
+
+.App:hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: rgba(0, 255, 255, 0.082);
+}
+
+.App h1 {
+  letter-spacing: 5px;
+  margin: 50px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn {
+  background-color: rgba(0, 255, 255, 0.515);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: aqua;
+  box-shadow: 1px 1px 1px black;
+  letter-spacing: 1px;
+}

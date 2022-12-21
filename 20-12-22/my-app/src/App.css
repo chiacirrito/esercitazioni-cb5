@@ -15,12 +15,27 @@
   margin: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .mb-sm {
+  margin-bottom: 1em;
 }
 
-.btn {
+.text-sm {
+  font-size: 12px;
+}
+
+.text-md {
+  font-size: 14px;
+}
+
+.text-lg {
+  font-size: 16px;
+}
+
+.text-xl {
+  font-size: 18px;
+}
+
+/* .btn {
   background-color: rgba(0, 255, 255, 0.515);
   padding: 10px;
   cursor: pointer;
@@ -30,4 +45,19 @@
   background-color: aqua;
   box-shadow: 1px 1px 1px black;
   letter-spacing: 1px;
+} */
+
+.Button--variant-primary {
+  background: rebeccapurple;
+  color: #fff;
+}
+
+.Button--variant-primary:hover {
+  cursor: pointer;
+}
+
+.Button--variant-secondary:hover,
+.Button--variant-special:hover {
+  background-color: rgba(0, 0, 255, 0.277);
+  cursor: pointer;
 }

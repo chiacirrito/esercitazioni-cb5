@@ -26,7 +26,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <Text variant="title">Hello World!</Text>
+      {/* <Text variant="title">Hello World!</Text> */}
+      <h1>Hello</h1>
       {Button2({ button2 })}
       {Button3({ button3 })}
       <Button {...propsButton2} />

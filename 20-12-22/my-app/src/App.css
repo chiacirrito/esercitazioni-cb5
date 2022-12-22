@@ -3,6 +3,10 @@
   border: 1px solid black;
   margin: 50px;
   padding: 50px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .App:hover {
@@ -34,18 +38,6 @@
 .text-xl {
   font-size: 18px;
 }
-
-/* .btn {
-  background-color: rgba(0, 255, 255, 0.515);
-  padding: 10px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: aqua;
-  box-shadow: 1px 1px 1px black;
-  letter-spacing: 1px;
-} */
 
 .Button--variant-primary {
   background: rebeccapurple;

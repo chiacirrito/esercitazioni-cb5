@@ -1,4 +1,4 @@
-import { Children } from "react";
+import "./text.css";
 
 const variantMap = {
   body: `text-md`,

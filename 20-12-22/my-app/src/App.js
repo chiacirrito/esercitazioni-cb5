@@ -1,14 +1,13 @@
 import "./App.css";
-import { Button } from "./components/Button.jsx";
-import { Button2 } from "./components/Button.jsx";
-import { Button3 } from "./components/Button.jsx";
+import "./components/layout/container.css";
+import { Button } from "./atoms/Button.jsx";
+import { Button2 } from "./atoms/Button.jsx";
+import { Button3 } from "./atoms/Button.jsx";
+import { Text } from "./atoms/text/Text";
+import { Header } from "./components/layout/container.jsx";
+import { Footer } from "./components/layout/container.jsx";
 
 export default function App() {
-  const propsButton1 = {
-    label: "Function Button",
-    title: "Sono un title1",
-  };
-
   const propsButton2 = {
     label: "Non premere",
     title: "Sono un title2",
@@ -26,12 +25,17 @@ export default function App() {
 
   return (
     <div className="App">
-      {/* <Text variant="title">Hello World!</Text> */}
-      <h1>Hello</h1>
-      {Button2({ button2 })}
-      {Button3({ button3 })}
-      <Button {...propsButton2} />
-      <Button variant="primary">Non premere!</Button>
+      {Header({ Header })}
+      <Text as="h1" variant="title">
+        Hello world!
+      </Text>
+      <section className="button">
+        {Button2({ button2 })}
+        {Button3({ button3 })}
+        <Button {...propsButton2} />
+        <Button variant="primary">❤</Button>
+      </section>
+      <section className="footer">{Footer({ Footer })}</section>
     </div>
   );
 }

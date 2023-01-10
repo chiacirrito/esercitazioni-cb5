@@ -1,0 +1,38 @@
+.container {
+  background-color: rgba(102, 51, 153, 0.312);
+  border: 1px solid rebeccapurple;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style-type: none;
+}
+
+li:hover {
+  letter-spacing: 2px;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer {
+  margin-top: 100px;
+}

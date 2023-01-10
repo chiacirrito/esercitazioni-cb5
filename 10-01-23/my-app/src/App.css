@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.number {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer,
+.num {
+  background-color: rgba(102, 51, 153, 0.229);
+  border: rebeccapurple;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}

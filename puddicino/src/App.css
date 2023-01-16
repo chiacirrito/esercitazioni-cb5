@@ -1,0 +1,19 @@
+.App {
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h3 {
+  letter-spacing: 3px;
+  font-style: italic;
+  text-shadow: 1px rgb(251, 189, 189);
+}
+
+.header h5 {
+  letter-spacing: 2px;
+  font-style: italic;
+}

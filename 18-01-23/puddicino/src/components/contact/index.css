@@ -1,0 +1,15 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+.contact img {
+  width: 70px;
+  border-radius: 100%;
+}
+
+.contact h3 {
+  font-size: 6pt;
+}

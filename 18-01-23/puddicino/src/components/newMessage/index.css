@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 30px;
+}
+
+input {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px rgb(88, 88, 88);
+  padding: 2px;
+}
+
+.submit {
+  border: 0;
+}
+
+.submit:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}

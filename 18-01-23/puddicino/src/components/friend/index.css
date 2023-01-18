@@ -1,0 +1,15 @@
+.Friend {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+
+.Friend img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.Friend h3 {
+  font-size: 7pt;
+}

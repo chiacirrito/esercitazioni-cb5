@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.friends,
+.popular {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8f5fd;
+}
+
+@media (min-width: 800px) {
+  body {
+    overflow-y: hidden;
+  }
+  .App {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow-y: scroll;
+  }
+
+  .friends {
+    width: 50%;
+    margin: 24px;
+    display: contents;
+  }
+
+  .main {
+    width: 100%;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+
+  .popular {
+    width: 50%;
+    display: contents;
+  }
+}

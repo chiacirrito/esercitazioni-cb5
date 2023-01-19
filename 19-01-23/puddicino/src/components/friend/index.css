@@ -1,0 +1,24 @@
+.Friend {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+  box-shadow: inset 0 0 4px black;
+}
+
+.Friend img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.Friend h3 {
+  font-size: 7pt;
+}
+
+.Friend:hover {
+  background-color: #70bbea97;
+}
+
+.Friend:active {
+  background-color: #4489b4a8;
+}

@@ -1,0 +1,24 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: 30px;
+}
+
+input {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px rgb(88, 88, 88);
+  padding: 2px;
+  width: 250px;
+  justify-content: flex-start;
+}
+
+.input_txt {
+  height: 100px;
+}
+
+.submit:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}

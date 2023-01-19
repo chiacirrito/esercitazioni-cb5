@@ -1,0 +1,20 @@
+.FriendContent {
+  border: 1px solid #e8f5fd;
+  box-shadow: 1px 1px 1px #70bbea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.FriendContent img {
+  width: 70px;
+  height: 70px;
+  background-color: #70bbea5e;
+  border-radius: 100%;
+}
+
+.FriendContent h3 {
+  font-size: 10pt;
+  color: #2e7cad;
+}

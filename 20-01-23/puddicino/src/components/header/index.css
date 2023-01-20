@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid #00374b7a;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar img {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #00374b7a;
+  font-weight: bold;
+}

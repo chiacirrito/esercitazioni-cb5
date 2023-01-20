@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 4px black;
+  padding: 10px;
+}
+
+.contact img {
+  width: 70px;
+  border-radius: 100%;
+}
+
+.contact h3 {
+  font-size: 6pt;
+}
+
+@media (min-width: 800px) {
+  .contact {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contact h3 {
+    font-size: 8pt;
+  }
+
+  .contact img {
+    height: 90px;
+    width: 90px;
+  }
+}

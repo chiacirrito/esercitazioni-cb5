@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import ErrorPage from "./error-page";
-import Root from "./routes/root";
-import Quote from "./routes/quote";
+import UserList from "./routes/userList";
+import User from "./routes/quote";
 
 const router = createBrowserRouter([
   {
@@ -15,11 +15,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/users",
-    element: <Root />,
+    element: <UserList />,
   },
   {
-    path: "/users/:quote",
-    element: <Quote />,
+    path: "/users/:user",
+    element: <User />,
   },
 ]);
 

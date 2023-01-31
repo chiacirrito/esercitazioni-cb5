@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 12pt;
+  background-color: #6fb1c9a1;
+  border-radius: 100%;
+}
+
+.Posts {
+  margin: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

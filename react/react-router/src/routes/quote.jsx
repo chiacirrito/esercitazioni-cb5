@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import styles from "./styles/styles.module.scss";
+import styles from "./styles/users.module.scss";
 import { GrCaretNext, GrCaretPrevious, GrHomeRounded } from "react-icons/gr";
 
 export default function User() {
@@ -29,26 +29,28 @@ export default function User() {
       <div className={styles.content}>
         <h2>Look for someone among your friend</h2>
 
-        <img
-          src={userData.image}
-          className={styles.btn}
-          alt={userData.firstName}
-        />
+        <div className={styles.button}>
+          <button className={styles.btn} onClick={onClickPrevBtn}>
+            <GrCaretPrevious />
+          </button>
+          <button className={styles.btn} onClick={() => navigate("/")}>
+            <GrHomeRounded />
+          </button>
+          <button className={styles.btn} onClick={onClickNextBtn}>
+            <GrCaretNext />
+          </button>
+        </div>
+        <div className={styles.content}>
+          <img
+            src={userData.image}
+            className={styles.btn}
+            alt={userData.firstName}
+          />
+        </div>
         <h3>
           {userData.firstName} {userData.lastName}
         </h3>
         <h4>Age: {userData.age}</h4>
-      </div>
-      <div className={styles.button}>
-        <button className={styles.btn} onClick={onClickPrevBtn}>
-          <GrCaretPrevious />
-        </button>
-        <button className={styles.btn} onClick={() => navigate("/")}>
-          <GrHomeRounded />
-        </button>
-        <button className={styles.btn} onClick={onClickNextBtn}>
-          <GrCaretNext />
-        </button>
       </div>
     </div>
   );

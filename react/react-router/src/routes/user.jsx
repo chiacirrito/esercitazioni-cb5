@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { GET } from "./http";
-import styles from "./styles/styles.module.scss";
+import styles from "./styles/users.module.scss";
 
 const User = ({ data }) => {
   const [user, setUser] = useState({});

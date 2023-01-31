@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import User from "./user";
-import styles from "./styles/styles.module.scss";
+import styles from "./styles/users.module.scss";
 import { GET } from "./http";
-import { GrHomeRounded, GrSearch } from "react-icons/gr";
+import { GrHomeRounded, GrSearch, GrChatOption } from "react-icons/gr";
 
 const UserList = () => {
   const [userList, setUserList] = useState([]);
@@ -26,11 +26,11 @@ const UserList = () => {
           <button className={styles.btn} onClick={() => navigate("/")}>
             <GrHomeRounded />
           </button>
-          <button
-            className={styles.btn}
-            onClick={() => navigate("/users/:user")}
-          >
+          <button className={styles.btn} onClick={() => navigate("/users/1")}>
             <GrSearch />
+          </button>
+          <button className={styles.btn} onClick={() => navigate("/posts")}>
+            <GrChatOption />
           </button>
         </div>
       </div>

@@ -1,0 +1,19 @@
+.Navbar {
+  margin: 0;
+  height: 50px;
+  padding: 12px 30px;
+  background-color: aliceblue;
+  color: black;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+
+  li {
+    border-bottom: 1px solid black;
+  }
+}

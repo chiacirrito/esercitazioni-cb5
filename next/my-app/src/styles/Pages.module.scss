@@ -1,0 +1,27 @@
+.Pages {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .users {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  h4 {
+    border: 1px solid whitesmoke;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

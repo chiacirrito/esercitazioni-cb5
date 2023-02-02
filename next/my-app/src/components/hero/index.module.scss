@@ -1,0 +1,19 @@
+.Hero {
+  width: 100%;
+  margin: 0;
+
+  h3 {
+    margin-top: -50px;
+    margin-left: 30px;
+    font-size: 20pt;
+    letter-spacing: 3px;
+    font-style: italic;
+  }
+
+  img {
+    margin: 0;
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+  }
+}

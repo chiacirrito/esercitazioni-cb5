@@ -1,8 +1,6 @@
 .Pages {
-  margin: 100px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 
   .users {
     margin: 100px;
@@ -13,15 +11,31 @@
     gap: 50px;
   }
 
+  h2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    letter-spacing: 2px;
+  }
+
   h4 {
     border: 1px solid whitesmoke;
     background-color: white;
     color: black;
-    height: 50px;
-    width: 200px;
+    height: 100px;
+    width: 250px;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px;
 }

@@ -1,13 +1,23 @@
 /* LATO CLIENT */
 import styles from "../../styles/Pages.module.scss";
+import Hero from "@/components/hero";
 
 const Users = ({ users }) => {
   console.log(users);
   return (
     <div className={styles.Pages}>
-      <h3>Email List</h3>
+      <div className={styles.Hero}>
+        <Hero />
+      </div>
+      <h2>Manufacturer contacts</h2>
       <div className={styles.users}>
-        {users && users.map((user) => <h4 key={user.id}>{user.email}</h4>)}
+        {users &&
+          users.map((user) => (
+            <h4 key={user.id}>
+              {user.phone}
+              {user.email}
+            </h4>
+          ))}
       </div>
     </div>
   );

@@ -1,0 +1,29 @@
+.Gallery {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  p {
+    font-size: 15pt;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+  .images {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    object-fit: cover;
+  }
+  .imgs {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    object-fit: cover;
+  }
+}

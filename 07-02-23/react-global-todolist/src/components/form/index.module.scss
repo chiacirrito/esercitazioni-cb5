@@ -1,0 +1,16 @@
+.form {
+  margin: 50px;
+
+  input {
+    background-color: rgba(245, 245, 245, 0.418);
+    color: black;
+    width: 400px;
+    height: 50px;
+    padding: 20px;
+    font-size: 14pt;
+  }
+
+  input:hover {
+    background-color: whitesmoke;
+  }
+}

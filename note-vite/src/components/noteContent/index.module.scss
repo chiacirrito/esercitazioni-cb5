@@ -1,0 +1,15 @@
+.Content {
+  background-color: rgba(173, 216, 230, 0.323);
+
+  h2 {
+    margin: 50px;
+    letter-spacing: 2px;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 100px;
+  }
+}

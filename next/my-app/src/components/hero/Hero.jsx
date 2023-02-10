@@ -4,12 +4,12 @@ import styles from "./index.module.scss";
 const Hero = () => {
   return (
     <div className={styles.Hero}>
-      <div className={styles.img}>
+      <div className={styles.image}>
         <Image
-          src="https://img.freepik.com/free-photo/top-view-charming-black-grapes-overturned-wine-glass-wine-bottle-wine-opener-walnut-dark-table_140725-145864.jpg?w=996&t=st=1675350651~exp=1675351251~hmac=1bf6374f4113b4ddccc79a24cf6337d8df5bd065ad57b0833d86d76881930069"
-          alt="img1"
+          src="https://img.freepik.com/free-photo/old-black-background-grunge-texture-blackboard-chalkboard-concrete_1258-52289.jpg?w=1060&t=st=1675448750~exp=1675449350~hmac=f3591e7305b1031e3827e41cf84dd19565ef2c05bf0b8a61a9b2e9a2067d856d"
+          alt="imgHero"
           width={800}
-          height={300}
+          height={250}
           priority={true}
         />
         <h3>In wine there’s truth.</h3>

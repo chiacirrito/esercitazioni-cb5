@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(245, 245, 245, 0.399);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+
+  .wine {
+    display: flex;
+    justify-content: center;
+  }
+  .icon {
+    margin: 10px;
+    color: black;
+    font-size: 20pt;
+  }
+
+  .btn {
+    margin: 30px;
+  }
+}

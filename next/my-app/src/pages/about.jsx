@@ -1,20 +1,15 @@
-import Confetti from "react-confetti";
+import Hero from "@/components/hero";
 import styles from "@/styles/Pages.module.scss";
+import WineList from "@/components/wineList/WineList";
+import Aperitif from "@/components/aperitif";
 
 const About = () => {
   return (
     <>
       <main className={styles.main}>
-        <p>Work in progress!</p>
-        <div className={styles.confetti}>
-          <Confetti
-            width={1000}
-            height={500}
-            numberOfPieces={100}
-            colors={["white", "gray"]}
-            opacity={0.8}
-          />
-        </div>
+        <Hero />
+        <WineList />
+        <Aperitif />
       </main>
     </>
   );

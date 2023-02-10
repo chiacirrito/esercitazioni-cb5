@@ -1,0 +1,54 @@
+.aperitif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+
+  h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+  }
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+
+  .ul {
+    width: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+  }
+
+  .li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h4 {
+    letter-spacing: 2px;
+  }
+}

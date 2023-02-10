@@ -1,19 +1,29 @@
 .Navbar {
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
   margin: 0;
   height: 50px;
   padding: 12px 30px;
-  background-color: aliceblue;
+  background-color: rgba(245, 245, 245, 0.399);
   color: black;
 
+  .icon {
+    width: 70px;
+    font-size: 25px;
+  }
+
+  .icon:hover {
+    font-size: 30px;
+    border-bottom: 1px solid black;
+  }
   ul {
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 30px;
-  }
-
-  li {
-    border-bottom: 1px solid black;
   }
 }
